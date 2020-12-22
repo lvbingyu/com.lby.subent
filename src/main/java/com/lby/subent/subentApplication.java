@@ -14,6 +14,11 @@ public class subentApplication {
 		return "Hello Spring Boot";
 	}
 
+	/**
+	 * 启动
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(subentApplication.class, args);
 	}
